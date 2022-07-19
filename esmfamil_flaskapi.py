@@ -4,13 +4,13 @@ import json
 app = Flask(__name__)
 
 # Endpoint01 - register
-@app.route('/register', methods=['POST'])
+@app.route('/register', methods=['POST', 'GET'])
 def templates():
     if request.method=='POST':
         pass
 
 # Endpoint02 - submit
-@app.route('/participants', methods=['POST'])
+@app.route('/participants', methods=['POST', 'GET'])
 def templates():
     if request.method=='POST':
         pass
